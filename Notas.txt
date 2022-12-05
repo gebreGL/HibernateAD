@@ -1,0 +1,20 @@
+PROTECTORA
+-----------
+
+- Animales (superclase)
+	id
+	sexo
+	tamaño
+	peso
+	edad
+	raza
+    Subclases:
+	Perros
+	Gatos
+	Aves
+
+- Recintos (en un recinto hay varios animales) 1:N
+- Voluntarios (varios voluntarios se hacen cargo de varios recintos) N:M
+- Clínicas (a cada clínica puede ir más de un animal) 1:N
+- Cliente (un cliente puede adoptar más de un animal) 1:N
+	
